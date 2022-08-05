@@ -21,13 +21,13 @@ const Contact = () => {
     console.log(`${nm} ${em} ${msg}`);
   }
   return (
-    <div>
-      <section id="contacts">
-        <h2 className="text-black sm:text-4xl text-3xl mb-1 font-medium title-font text-center mt-12">
+    <div className="bg-gray-200 pb-6">
+      <section id="contacts ">
+        <h3 className="text-black h2 mb-4 text-center">
           Contato
-        </h2>
+        </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 mb-12 p-2 md:p-6 mx-4 space-x-4" >
+        <div className="grid grid-cols-1 md:grid-cols-2 p-2 md:p-6 mx-4 space-x-4" >
           {/* left */}
           <div className="h-full bg-gray-900 bg-opacity-80 shadow-xl rounded-xl">
           <h1 className="text-white p-10">Informações</h1>
