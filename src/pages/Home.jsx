@@ -1,29 +1,25 @@
 import React from 'react';
 
-import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
-import FeaturesHome from '../partials/Features';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
-import Testimonials from '../partials/Testimonials';
-import Newsletter from '../partials/Newsletter';
+import About from '../partials/About';
+import Services from '../partials/Services';
+import Questions from '../partials/Questions'
+import Contact from '../partials/Contact';
 import Footer from '../partials/Footer';
 
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
-      {/*  Site header */}
-      <Header />
-
       {/*  Page content */}
       <main className="flex-grow">
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
-        <FeaturesBlocks />
-        <Testimonials />
-        <Newsletter />
+        <About />
+        <Questions/>
+        <Services />
+        <Contact />
 
       </main>
 
