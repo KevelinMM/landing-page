@@ -19,6 +19,12 @@ function FeaturesBlocks() {
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">
                 REVISÃO DE CONTRATO DE VEÍCULO
               </h4>
+              <a
+                  className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 mt-4"
+                  href="#0"
+                >
+                  ENTRE EM CONTATO
+                </a>
             </div>
 
             {/* 2nd item */}
@@ -27,6 +33,12 @@ function FeaturesBlocks() {
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">
                 REVISÃO DE CONTRATO DE DÍVIDAS BANCÁRIAS
               </h4>
+              <a
+                  className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 mt-4"
+                  href="#0"
+                >
+                  ENTRE EM CONTATO
+                </a>
             </div>
 
             {/* 3rd item */}
@@ -35,6 +47,12 @@ function FeaturesBlocks() {
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">
                 DEFESA EM EXECUÇÃO <br></br> 
               </h4>
+              <a
+                  className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 mt-4"
+                  href="#0"
+                >
+                  ENTRE EM CONTATO
+                </a>
             </div>
           </div>
         </div>

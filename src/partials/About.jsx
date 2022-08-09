@@ -52,10 +52,10 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 text-justify px-10">
               <div className="pb-8 mt-4">
                 <div className="font-bold leading-snug tracking-tight mb-8">
-                  VSN Advogados
+                Krieguer Advocacia consultoria jurídica
                 </div>
                 <div className="text-gray-600">
-                  O <sctrong className="font-bold">VSN Advogados</sctrong> é um
+                  O <sctrong className="font-bold">Krieguer Advocacia consultoria jurídica</sctrong> é um
                   escritório especializado em
                   <strong className="font-bold">
                     RECUPERAÇÃO DE VEÍCULOS APREENDIDOS POR BANCOS E FINANCEIRAS
