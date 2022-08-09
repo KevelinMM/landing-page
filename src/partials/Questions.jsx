@@ -69,24 +69,20 @@ const FaqsCard = (props) => {
 export default () => {
   const faqsList = [
     {
-      q: "What are some random questions to ask?",
-      a: "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
+      q: "POSSO FAZER ALGO PARA RECUPERAR O VEÍCULO?",
+      a: "Sim! Essa é a boa notícia! Pode e deve RECORRER. O seu prazo JÁ ESTÁ CORRENDO, e há grandes chances de recuperá-lo.",
     },
     {
-      q: "Do you include common questions?",
-      a: "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
+      q: "SE EU NÃO FIZER A DEFESA, POSSO SER COBRADO DE MAIS ALGUMA COISA PELO BANCO?",
+      a: "Sim, se o valor obtido pela venda do carro não for capaz de quitar o saldo devedor do contrato, o banco continuará sendo seu credor e poderá converter a ação de busca e apreensão em execução para atingir outros bens seus. Assim você perderá o carro, todo o valor que já pagou por ele (incluindo a entrada) e poderá continuar devendo ao banco com o seu nome no SPC até a plena quitação.",
     },
     {
-      q: "Can I use this for 21 questions?",
-      a: "Yes! there are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
+      q: "MEU NOME VAI CONTINUAR NO SPC?",
+      a: "Sim, até a quitação plena do contrato.",
     },
     {
-      q: "Are these questions for girls or for boys?",
-      a: "The questions in this generator are gender neutral and can be used to ask either male of females (or any other gender the person identifies with).",
-    },
-    {
-      q: "What do you wish you had more talent doing?",
-      a: "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
+      q: "A BUSCA E APREENSÃO É LEGAL?",
+      a: "O procedimento sim. Ou seja, o Banco pode requerer a medida. Mas precisa cumprir requisitos legais para que ele seja válido. Se você foi vitima de um caso de busca e apreensão recentemente, CLICA AGORA no botão do WhatsApp aqui do lado e peça atendimento preferencial no nosso plantão que iremos te passar todas as informações necessárias para recuperar prontamente o seu veículo.",
     },
   ];
 
