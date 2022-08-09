@@ -33,7 +33,7 @@ function Features() {
 
           <div className="md:grid md:grid-cols-12 md:gap-3">
             <div
-              className="max-w-xl mx-auto md:col-span-5 lg:col-span-6 mb-8"
+              className="max-w-xl mx-auto sm:col-span-5 lg:col-span-6 mb-12 sm:mt-20 md:mt-8 lg:mt-2"
               ref={tabs}
             >
               <div className="relative flex flex-col">
@@ -43,31 +43,34 @@ function Features() {
                     src={ConsultoriaFundo}
                     width="500"
                     height=""
-                    alt="Features bg"
+                    alt="consultoria-fundo"
                   />
-               
                 </div>
               </div>
             </div>
             {/* Content */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 text-justify"
-            >
-                  <div className="pb-8">
-                    <div className="font-bold leading-snug tracking-tight mb-1">
-                      VSN Advogados
-                    </div>
-                    <div className="text-gray-600">
-                      O VSN Advogados é um escritório especializado em
-                      RECUPERAÇÃO DE VEÍCULOS APREENDIDOS POR BANCOS E
-                      FINANCEIRAS que está há mais de 10 anos no mercado. Com
-                      atuação à nível nacional, de forma totalmente digital para
-                      acelerar a resolução das causas e prezar pelo conforto dos
-                      seus clientes. Contamos com profissionais altamente
-                      capacitados na matéria, preocupados com a constante
-                      atualização dos seus conhecimentos e implantação de
-                      inovações tecnológicas para atender seus clientes com
-                      máxima eficiência.
-                    </div>        
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 text-justify px-10">
+              <div className="pb-8 mt-4">
+                <div className="font-bold leading-snug tracking-tight mb-8">
+                  VSN Advogados
+                </div>
+                <div className="text-gray-600">
+                  O <sctrong className="font-bold">VSN Advogados</sctrong> é um
+                  escritório especializado em
+                  <strong className="font-bold">
+                    RECUPERAÇÃO DE VEÍCULOS APREENDIDOS POR BANCOS E FINANCEIRAS
+                  </strong>{" "}
+                  que está há mais de 10 anos no mercado.{" "}
+                  <strong className="font-bold">
+                    Com atuação à nível nacional, de forma totalmente digital
+                    para acelerar a resolução das causas e prezar pelo conforto
+                    dos seus clientes.
+                  </strong>{" "}
+                  Contamos com profissionais altamente capacitados na matéria,
+                  preocupados com a constante atualização dos seus conhecimentos
+                  e implantação de inovações tecnológicas para atender seus
+                  clientes com máxima eficiência.
+                </div>
               </div>
             </div>
           </div>
